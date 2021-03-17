@@ -3,9 +3,6 @@ originalAuthor: OpenKH open-source assets
 description: Generate English game files. This mod is mainly useful to translate your PlayStation 2 copy of Kingdom Hearts II from any language to English.
 assets:
 - name: msg/jp/sys.bar
-  multi:
-  - name: msg/us/sys.bar
-  - name: msg/uk/sys.bar
   method: binarc
   source:
   - name: sys
@@ -16,9 +13,6 @@ assets:
       language: en
       
 - name: msg/jp/title.bar
-  multi:
-  - name: msg/us/title.bar
-  - name: msg/uk/title.bar
   method: binarc
   source:
   - name: title
@@ -29,9 +23,6 @@ assets:
       language: en
 
 - name: msg/jp/al.bar
-  multi:
-  - name: msg/us/al.bar
-  - name: msg/uk/al.bar
   method: binarc
   source:
   - name: al
@@ -42,9 +33,6 @@ assets:
       language: en
 
 - name: msg/jp/bb.bar
-  multi:
-  - name: msg/us/bb.bar
-  - name: msg/uk/bb.bar
   method: binarc
   source:
   - name: bb
@@ -56,9 +44,6 @@ assets:
 
 
 - name: msg/jp/ca.bar
-  multi:
-  - name: msg/us/ca.bar
-  - name: msg/uk/ca.bar
   method: binarc
   source:
   - name: ca
@@ -70,9 +55,6 @@ assets:
 
 
 - name: msg/jp/dc.bar
-  multi:
-  - name: msg/us/dc.bar
-  - name: msg/uk/dc.bar
   method: binarc
   source:
   - name: dc
@@ -83,9 +65,6 @@ assets:
       language: en
 
 - name: msg/jp/di.bar
-  multi:
-  - name: msg/us/di.bar
-  - name: msg/uk/di.bar
   method: binarc
   source:
   - name: di
@@ -96,9 +75,6 @@ assets:
       language: en
 
 - name: msg/jp/eh.bar
-  multi:
-  - name: msg/us/eh.bar
-  - name: msg/uk/eh.bar
   method: binarc
   source:
   - name: eh
@@ -109,9 +85,6 @@ assets:
       language: en
 
 - name: msg/jp/es.bar
-  multi:
-  - name: msg/us/es.bar
-  - name: msg/uk/es.bar
   method: binarc
   source:
   - name: es
@@ -122,9 +95,6 @@ assets:
       language: en
 
 - name: msg/jp/gumi.bar
-  multi:
-  - name: msg/us/gumi.bar
-  - name: msg/uk/gumi.bar
   method: binarc
   source:
   - name: gumi
@@ -135,9 +105,6 @@ assets:
       language: en
 
 - name: msg/jp/hb.bar
-  multi:
-  - name: msg/us/hb.bar
-  - name: msg/uk/hb.bar
   method: binarc
   source:
   - name: hb
@@ -148,9 +115,6 @@ assets:
       language: en
 
 - name: msg/jp/jm.bar
-  multi:
-  - name: msg/us/jm.bar
-  - name: msg/uk/jm.bar
   method: binarc
   source:
   - name: jm
@@ -161,9 +125,6 @@ assets:
       language: en
 
 - name: msg/jp/lk.bar
-  multi:
-  - name: msg/us/lk.bar
-  - name: msg/uk/lk.bar
   method: binarc
   source:
   - name: lk
@@ -174,9 +135,6 @@ assets:
       language: en
 
 - name: msg/jp/he.bar
-  multi:
-  - name: msg/us/he.bar
-  - name: msg/uk/he.bar
   method: binarc
   source:
   - name: he
@@ -187,9 +145,6 @@ assets:
       language: en
 
 - name: msg/jp/lm.bar
-  multi:
-  - name: msg/us/lm.bar
-  - name: msg/uk/lm.bar
   method: binarc
   source:
   - name: lm
@@ -200,9 +155,6 @@ assets:
       language: en
 
 - name: msg/jp/mu.bar
-  multi:
-  - name: msg/us/mu.bar
-  - name: msg/uk/mu.bar
   method: binarc
   source:
   - name: mu
@@ -213,9 +165,6 @@ assets:
       language: en
 
 - name: msg/jp/nm.bar
-  multi:
-  - name: msg/us/nm.bar
-  - name: msg/uk/nm.bar
   method: binarc
   source:
   - name: nm
@@ -226,9 +175,6 @@ assets:
       language: en
 
 - name: msg/jp/po.bar
-  multi:
-  - name: msg/us/po.bar
-  - name: msg/uk/po.bar
   method: binarc
   source:
   - name: po
@@ -239,9 +185,6 @@ assets:
       language: en
 
 - name: msg/jp/tr.bar
-  multi:
-  - name: msg/us/tr.bar
-  - name: msg/uk/tr.bar
   method: binarc
   source:
   - name: tr
@@ -252,9 +195,6 @@ assets:
       language: en
 
 - name: msg/jp/tt.bar
-  multi:
-  - name: msg/us/tt.bar
-  - name: msg/uk/tt.bar
   method: binarc
   source:
   - name: tt
@@ -265,9 +205,6 @@ assets:
       language: en
 
 - name: msg/jp/wi.bar
-  multi:
-  - name: msg/us/wi.bar
-  - name: msg/uk/wi.bar
   method: binarc
   source:
   - name: wi
@@ -278,9 +215,6 @@ assets:
       language: en
 
 - name: msg/jp/wm.bar
-  multi:
-  - name: msg/us/wm.bar
-  - name: msg/uk/wm.bar
   method: binarc
   source:
   - name: wm
@@ -291,17 +225,11 @@ assets:
       language: en
 
 - name: msg/jp/fontimage.bar
-  multi:
-   - name: msg/us/fontimage.bar
-   - name: msg/uk/fontimage.bar
   method: copy
   source:
   - name: msg/fontimage.bar
 
 - name: msg/jp/fontinfo.bar
-  multi:
-   - name: msg/us/fontinfo.bar
-   - name: msg/uk/fontinfo.bar
   method: copy
   source:
   - name: msg/fontinfo.bar
