@@ -2,14 +2,6 @@ title: English language pack
 originalAuthor: OpenKH open-source assets
 description: Generate English game files. This mod is mainly useful to translate your PlayStation 2 copy of Kingdom Hearts II from any language to English.
 assets:
-  - name: msg/jp/fontimage.bar
-    method: copy
-    source:
-    - name: msg/fontimage.bar
-  - name: msg/jp/fontinfo.bar
-    method: copy
-    source:
-    - name: msg/fontinfo.bar
 - name: msg/jp/sys.bar
   multi:
   - name: msg/us/sys.bar
@@ -297,3 +289,19 @@ assets:
     source:
     - name: msg/wm.yml
       language: en
+
+- name: msg/jp/fontimage.bar
+  multi:
+   - name: msg/us/fontimage.bar
+   - name: msg/uk/fontimage.bar
+  method: copy
+  source:
+  - name: msg/fontimage.bar
+
+- name: msg/jp/fontinfo.bar
+  multi:
+   - name: msg/us/fontinfo.bar
+   - name: msg/uk/fontinfo.bar
+  method: copy
+  source:
+  - name: msg/fontinfo.bar
