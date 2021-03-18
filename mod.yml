@@ -233,3 +233,63 @@ assets:
   method: copy
   source:
   - name: msg/fontinfo.bar
+- name: menu/ab_010_o.png
+  method: copy
+  source:
+  - name: menu/ab_010_o.png
+- name: menu/ab_010_r.png
+  method: copy
+  source:
+  - name: menu/ab_010_r.png
+- name: menu/ab_010_s.png
+  method: copy
+  source:
+  - name: menu/ab_010_s.png
+- name: menu/ab_020_r.png
+  method: copy
+  source:
+  - name: menu/ab_020_r.png
+- name: menu/ab_020_s.png
+  method: copy
+  source:
+  - name: menu/ab_020_s.png
+- name: menu/ab_040_s.png
+  method: copy
+  source:
+  - name: menu/ab_040_s.png
+- name: menu/at_010_o.png
+  method: copy
+  source:
+  - name: menu/at_010_o.png
+- name: menu/at_010_r.png
+  method: copy
+  source:
+  - name: menu/at_010_r.png
+- name: menu/at_010_s.png
+  method: copy
+  source:
+  - name: menu/at_010_s.png
+- name: menu/at_020_r.png
+  method: copy
+  source:
+  - name: menu/at_020_r.png
+- name: menu/at_020_s.png
+  method: copy
+  source:
+  - name: menu/at_020_s.png
+- name: menu/mp_010_s.png
+  method: copy
+  source:
+  - name: menu/mp_010_s.png
+- name: menu/mp_020_s.png
+  method: copy
+  source:
+  - name: menu/mp_020_s.png
+- name: menu/sw_010_s.png
+  method: copy
+  source:
+  - name: menu/sw_010_s.png
+- name: menu/sw_020_s.png
+  method: copy
+  source:
+  - name: menu/sw_020_s.png
