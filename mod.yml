@@ -2,6 +2,16 @@ title: English language pack
 originalAuthor: OpenKH open-source assets
 description: Generate English game files. This mod is mainly useful to translate your PlayStation 2 copy of Kingdom Hearts II from any language to English. Set your Region to JP in the OpenKH Mod Manager Wizard. Credit to Xeeynamo for the fontimage and fontinfo.
 assets:
+#Fonts
+- name: msg/jp/fontimage.bar
+  method: copy
+  source:
+  - name: msg/fontimage.bar
+- name: msg/jp/fontinfo.bar
+  method: copy
+  source:
+  - name: msg/fontinfo.bar
+#Texts
 - name: msg/jp/sys.bar
   method: binarc
   source:
@@ -11,7 +21,6 @@ assets:
     source:
     - name: msg/sys.yml
       language: en
-      
 - name: msg/jp/title.bar
   method: binarc
   source:
@@ -21,7 +30,6 @@ assets:
     source:
     - name: msg/title.yml
       language: en
-
 - name: msg/jp/al.bar
   method: binarc
   source:
@@ -31,7 +39,6 @@ assets:
     source:
     - name: msg/al.yml
       language: en
-
 - name: msg/jp/bb.bar
   method: binarc
   source:
@@ -41,8 +48,6 @@ assets:
     source:
     - name: msg/bb.yml
       language: en
-
-
 - name: msg/jp/ca.bar
   method: binarc
   source:
@@ -52,8 +57,6 @@ assets:
     source:
     - name: msg/ca.yml
       language: en
-
-
 - name: msg/jp/dc.bar
   method: binarc
   source:
@@ -63,7 +66,6 @@ assets:
     source:
     - name: msg/dc.yml
       language: en
-
 - name: msg/jp/di.bar
   method: binarc
   source:
@@ -73,7 +75,6 @@ assets:
     source:
     - name: msg/di.yml
       language: en
-
 - name: msg/jp/eh.bar
   method: binarc
   source:
@@ -83,7 +84,6 @@ assets:
     source:
     - name: msg/eh.yml
       language: en
-
 - name: msg/jp/es.bar
   method: binarc
   source:
@@ -93,7 +93,6 @@ assets:
     source:
     - name: msg/es.yml
       language: en
-
 - name: msg/jp/gumi.bar
   method: binarc
   source:
@@ -103,7 +102,6 @@ assets:
     source:
     - name: msg/gumi.yml
       language: en
-
 - name: msg/jp/hb.bar
   method: binarc
   source:
@@ -113,7 +111,6 @@ assets:
     source:
     - name: msg/hb.yml
       language: en
-
 - name: msg/jp/jm.bar
   method: binarc
   source:
@@ -123,7 +120,6 @@ assets:
     source:
     - name: msg/jm.yml
       language: en
-
 - name: msg/jp/lk.bar
   method: binarc
   source:
@@ -133,7 +129,6 @@ assets:
     source:
     - name: msg/lk.yml
       language: en
-
 - name: msg/jp/he.bar
   method: binarc
   source:
@@ -143,7 +138,6 @@ assets:
     source:
     - name: msg/he.yml
       language: en
-
 - name: msg/jp/lm.bar
   method: binarc
   source:
@@ -153,7 +147,6 @@ assets:
     source:
     - name: msg/lm.yml
       language: en
-
 - name: msg/jp/mu.bar
   method: binarc
   source:
@@ -163,7 +156,6 @@ assets:
     source:
     - name: msg/mu.yml
       language: en
-
 - name: msg/jp/nm.bar
   method: binarc
   source:
@@ -173,7 +165,6 @@ assets:
     source:
     - name: msg/nm.yml
       language: en
-
 - name: msg/jp/po.bar
   method: binarc
   source:
@@ -183,7 +174,6 @@ assets:
     source:
     - name: msg/po.yml
       language: en
-
 - name: msg/jp/tr.bar
   method: binarc
   source:
@@ -193,7 +183,6 @@ assets:
     source:
     - name: msg/tr.yml
       language: en
-
 - name: msg/jp/tt.bar
   method: binarc
   source:
@@ -203,7 +192,6 @@ assets:
     source:
     - name: msg/tt.yml
       language: en
-
 - name: msg/jp/wi.bar
   method: binarc
   source:
@@ -213,7 +201,6 @@ assets:
     source:
     - name: msg/wi.yml
       language: en
-
 - name: msg/jp/wm.bar
   method: binarc
   source:
@@ -223,73 +210,125 @@ assets:
     source:
     - name: msg/wm.yml
       language: en
-
-- name: msg/jp/fontimage.bar
-  method: copy
+#Tutorial Slides
+- name: menu/fm/ab_010_o.bar
+  method: binarc
   source:
-  - name: msg/fontimage.bar
-
-- name: msg/jp/fontinfo.bar
-  method: copy
+  - name: ab_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/ab_010_o.png
+- name: menu/fm/ab_010_r.bar
+  method: binarc
   source:
-  - name: msg/fontinfo.bar
-- name: menu/ab_010_o.png
-  method: copy
+  - name: ab_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/ab_010_r.png
+- name: menu/fm/ab_010_s.bar
+  method: binarc
   source:
-  - name: menu/ab_010_o.png
-- name: menu/ab_010_r.png
-  method: copy
+  - name: ab_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/ab_010_s.png
+- name: menu/fm/ab_020_r.bar
+  method: binarc
   source:
-  - name: menu/ab_010_r.png
-- name: menu/ab_010_s.png
-  method: copy
+  - name: ab_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/ab_020_r.png
+- name: menu/fm/ab_020_s.bar
+  method: binarc
   source:
-  - name: menu/ab_010_s.png
-- name: menu/ab_020_r.png
-  method: copy
+  - name: ab_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/ab_020_s.png
+- name: menu/fm/ab_040_s.bar
+  method: binarc
   source:
-  - name: menu/ab_020_r.png
-- name: menu/ab_020_s.png
-  method: copy
+  - name: ab_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/ab_040_s.png
+- name: menu/fm/at_010_o.bar
+  method: binarc
   source:
-  - name: menu/ab_020_s.png
-- name: menu/ab_040_s.png
-  method: copy
+  - name: at_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/at_010_o.png
+- name: menu/fm/at_010_r.bar
+  method: binarc
   source:
-  - name: menu/ab_040_s.png
-- name: menu/at_010_o.png
-  method: copy
+  - name: at_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/at_010_r.png
+- name: menu/fm/at_010_s.bar
+  method: binarc
   source:
-  - name: menu/at_010_o.png
-- name: menu/at_010_r.png
-  method: copy
+  - name: at_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/at_010_s.png
+- name: menu/fm/at_020_r.bar
+  method: binarc
   source:
-  - name: menu/at_010_r.png
-- name: menu/at_010_s.png
-  method: copy
+  - name: at_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/at_020_r.png
+- name: menu/fm/at_020_s.bar
+  method: binarc
   source:
-  - name: menu/at_010_s.png
-- name: menu/at_020_r.png
-  method: copy
+  - name: at_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/at_020_s.png
+- name: menu/fm/mp_010_s.bar
+  method: binarc
   source:
-  - name: menu/at_020_r.png
-- name: menu/at_020_s.png
-  method: copy
+  - name: mp_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/mp_010_s.png
+- name: menu/fm/mp_020_s.bar
+  method: binarc
   source:
-  - name: menu/at_020_s.png
-- name: menu/mp_010_s.png
-  method: copy
+  - name: mp_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/mp_020_s.png
+- name: menu/fm/sw_010_s.bar
+  method: binarc
   source:
-  - name: menu/mp_010_s.png
-- name: menu/mp_020_s.png
-  method: copy
+  - name: sw_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/sw_010_s.png
+- name: menu/fm/sw_020_s.bar
+  method: binarc
   source:
-  - name: menu/mp_020_s.png
-- name: menu/sw_010_s.png
-  method: copy
-  source:
-  - name: menu/sw_010_s.png
-- name: menu/sw_020_s.png
-  method: copy
-  source:
-  - name: menu/sw_020_s.png
+  - name: sw_0
+    type: imgd
+    method: imgd
+    source:
+    - name: menu/sw_020_s.png
+#Minigame Tutorial Slides
