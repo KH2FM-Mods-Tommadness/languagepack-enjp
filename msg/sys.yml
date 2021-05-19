@@ -8403,7 +8403,7 @@
 
     Abilities become stronger by leveling up.
 - id: 20159
-  en: '{:icon button-cross}: Save   {:icon button-circle}: End Game'
+  en: '{:icon button-circle}: Save   {:icon button-cross}: End Game'
 - id: 20168
   en: Reversal
 - id: 20169
